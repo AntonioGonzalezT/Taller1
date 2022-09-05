@@ -1,3 +1,3 @@
-# Taller 01 - Desarrollo de experiencias multimedia para la web
+# Taller 01 - Desarrollo de Experiencias Multimedia para la Web
 
-Realizado por Gabriel Jeannot - 2185887
+Realizado por Antonio J Gonzalez T - 2195207

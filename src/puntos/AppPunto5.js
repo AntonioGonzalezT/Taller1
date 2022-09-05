@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 export const AppPunto5 = () => {
 
+
     const [numerosOrden, setNumerosOrden] = useState(['']);
     const [numerosOrden2, setNumerosOrden2] = useState(['']);
     const [numerosDesorden, setNumerosDesorden] = useState('');
@@ -13,6 +14,7 @@ export const AppPunto5 = () => {
         }
 
     }
+
 
     const onSetNumerosDesorden = (event) => {
         event.preventDefault();
@@ -31,7 +33,7 @@ export const AppPunto5 = () => {
 
     return (
         <>
-            <h1>¡Organizar tu lista en orden numérico!</h1>
+            <h1>¡Organiza tu lista en orden numérico!</h1>
             <h3>Aquí podrás ordenar tu lista de números en orden de mayor a menor</h3>
             <input type="text" value={numerosDesorden} onChange={(event) => onSetNumerosDesorden(event)} />
             <button onClick={() => onAddNumero()}> Añadir Número</button>

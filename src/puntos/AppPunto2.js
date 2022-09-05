@@ -2,12 +2,14 @@ import { useState } from "react";
 
 export const AppPunto2 = () => {
 
+
 	const [minutos, setMinutos] = useState("")
 	const [valorPagar, setValorPagar] = useState("")
 
 	const onInputChange = (event) => {
 		setMinutos(event.target.value)
 	}
+
 
 	const handleAdd = (event) => {
 		event.preventDefault();
@@ -24,6 +26,7 @@ export const AppPunto2 = () => {
 	}
 
 
+	
 	return (
 		<>
 			<h1>¡Calcular el costo de tu llamada!</h1>

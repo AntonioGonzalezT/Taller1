@@ -16,7 +16,7 @@ import { AppPunto12 } from './puntos/AppPunto12'
 
 import './index.css'
 
-//Taller 1 de Gabriel Jeannot - 2185887
+//Taller 1 de Antonio J Gonzalez - 2195207
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

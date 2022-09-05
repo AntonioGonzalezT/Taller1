@@ -15,6 +15,7 @@ export const AppPunto9 = () => {
         setCol(evt.target.value.replace(/\D/g, ''))
     }
 
+    
     const tableCreate = (row, col) => {
 
         let body = document.body;

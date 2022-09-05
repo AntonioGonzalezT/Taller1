@@ -10,6 +10,7 @@ export const AppPunto6 = () => {
 		setNumero(event.target.value.replace(/\D/g, ''))
 	}
 
+	
 	const handleAdd = (event) => {
 		event.preventDefault();
 		setNumero('')

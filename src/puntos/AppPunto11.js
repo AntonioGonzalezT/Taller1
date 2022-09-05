@@ -28,7 +28,7 @@ export const AppPunto11 = () => {
                 onSetResultado()
             }
         } else {
-            alert("¡ERROR!\nDebes ingresar una nota entre 0.0 y 5.0, lógicamente")
+            alert("¡ERROR!\nDebes ingresar una nota entre 0.0 y 5.0")
         }
     }
 
@@ -64,8 +64,8 @@ export const AppPunto11 = () => {
     return (
         <div>
             <h1> Conoce si ganaste o perdiste la materia </h1>
-            <h4> Por favor, escribe tu nombre y las tres notas para conocer tu resultado en la materia.</h4>
-            <h4> Después de esto, presiona una vez más el botón para calcular.</h4>
+            <h4> Por favor, escribe tu nombre y las tres notas para conocer el resultado de la materia.</h4>
+            <h4> Después de esto, dar click una vez más el botón para calcular.</h4>
 
             <br></br>
 

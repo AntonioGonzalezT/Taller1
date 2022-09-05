@@ -17,6 +17,7 @@ export const AppPunto4 = () => {
         setNumero3(event.target.value.replace(/\D/g, ''))
     }
 
+
     const onClickButton = () => {
         const arrayNum = [numero1, numero2, numero3]
         const countsObject = {}
@@ -31,7 +32,7 @@ export const AppPunto4 = () => {
     return (
         <>
             <h1>Identificador de la cantidad de números repetidos</h1>
-            <span>Aquí podrás ver cuántos números se repiten, ¡ingrésalos para probar!</span><br /><br />
+            <span>Aquí podrás observar cuántos números se repiten, ¡Ingrésalos para probar!</span><br /><br />
 
             <input type="text" placeholder="Primer número" value={numero1} onChange={(event) => onInputChange1(event)} />
             <input type="text" placeholder="Segundo número" value={numero2} onChange={(event) => onInputChange2(event)} />
